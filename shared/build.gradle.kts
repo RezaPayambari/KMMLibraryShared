@@ -20,6 +20,7 @@ kotlin {
         framework {
             baseName = "shared"
         }
+
     }
 
     multiplatformSwiftPackage {

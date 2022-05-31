@@ -1,14 +1,13 @@
 Pod::Spec.new do |spec|
-    spec.name = 'shared'
-    spec.version = '1.0.0'
-    spec.homepage = 'https://www.cocoapods.org'
-    spec.source = { :git => "https://github.com/RezaPayambari/KMMLibrary.git", :branch => "master",:tag => "#{spec.version}" }
-    spec.authors = 'Paris Tsiogas'
-    spec.license = { :type => "MIT", :file => "LICENSE" }
-    spec.summary = 'KMM shared code pod'
-    spec.static_framework = true
-    spec.vendored_frameworks = 'build/cocoapods/framework/shared.xcframework'
-    spec.libraries = 'c++'
+    spec.name                     = 'shared'
+    spec.version                  = '1.0'
+    spec.homepage                 = 'Link to the Shared Module homepage'
+    spec.source                   = { :http=> ''}
+    spec.authors                  = ''
+    spec.license                  = ''
+    spec.summary                  = 'Some description for the Shared Module'
+    spec.vendored_frameworks      = 'build/cocoapods/framework/shared.framework'
+    spec.libraries                = 'c++'
     spec.ios.deployment_target = '14.1'
                 
                 
